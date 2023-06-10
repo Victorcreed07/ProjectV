@@ -1,0 +1,11 @@
+.underline-on-hover {
+  text-decoration: none;
+}
+
+.underline-on-hover:hover {
+  text-decoration: underline;
+}
+@font-face {
+  font-family:'CustomFont';
+  src: url('../data/navy.ttf') format('truetype');
+}
