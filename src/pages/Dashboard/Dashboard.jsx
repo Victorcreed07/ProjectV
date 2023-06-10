@@ -17,7 +17,7 @@ const Dashboard = () => {
   const data1 = [
     {
       values: [500],
-      labels: ['All Officers'],
+      labels: ['Personnels'],
       type: 'pie'
     }
   ];
@@ -31,7 +31,7 @@ const Dashboard = () => {
   const layout12 = {
     width: 400,
     height: 400,
-    title: 'All Officers',
+    title: 'Personnel',
     paper_bgcolor: 'rgba(0,0,0,0)', // Transparent background
     plot_bgcolor: 'rgba(0,0,0,0)', // Transparent plot area
   };
@@ -114,8 +114,8 @@ const Dashboard = () => {
         <div className="bg-white dark:text-gray-200 dark:bg-secondary-dark-bg h-44 rounded-xl w-full lg:w-80 p-8 pt-9 m-3 bg-hero-pattern bg-no-repeat bg-cover bg-center" style={{ backgroundImage: `url(${money})` }}>
           <div className="flex justify-between items-center"  >
             <div>
-              <p className="font-bold text-gray-400">Annual Cost</p>
-              <p className="text-2xl">₹938,432,221</p>
+              <p className="font-bold text-gray-400">Monthly Report</p>
+              
             </div>
               
           </div>

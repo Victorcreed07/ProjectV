@@ -43,7 +43,7 @@ setUser1(!user1)
         />
         <div>
           <p className="font-semibold text-xl dark:text-gray-200">{JSON.parse(localStorage.getItem("myMicData"))}</p>
-          <p className="text-gray-500 text-sm dark:text-gray-400">  Sub Leuitanent   </p>
+          <p className="text-gray-500 text-sm dark:text-gray-400">  Sub Lieutenant   </p>
           <p className="text-gray-500 text-sm font-semibold dark:text-gray-400">{JSON.parse(localStorage.getItem("myMicData"))}@gmail.com</p>
         </div>
       </div>

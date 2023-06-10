@@ -28,7 +28,7 @@ const Stacked = ({data,height,width}) => {
   const layout = {
     width:width,
     barmode: 'group',
-    title: 'Weekly Notices',
+    title: 'Monthly Notice',
     bargap: 0.2, // Increase the bargap for wider bars
     bargroupgap: 0.1, // Increase the bargroupgap for wider groups
     xaxis: {
