@@ -4,7 +4,7 @@ import { FiSettings } from 'react-icons/fi';
 
 import './App.css';
 import { Navbar, Footer, Sidebar, Theme } from './components';
-import { Login,Dashboard} from './pages';
+import { Login,Dashboard,Authorize,Verify} from './pages';
 import { useStateContext } from './contexts/context';
 
 
@@ -66,8 +66,10 @@ console.log('Hi')
 
               <Routes>
                 {/* dashboard  */}
-                <Route path="/" element={(<Dashboard />)} />
-                <Route path="/dashboard" element={(<Dashboard />)} />
+                <Route path="/" element={(<Authorize />)} />
+                <Route path="/dashboard" element={(<Authorize />)} />
+                <Route path="/verify" element={(<Verify />)} />
+                <Route path="/Analytics" element={(<Dashboard />)} />
 
               
                 

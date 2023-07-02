@@ -1,0 +1,31 @@
+.containall
+{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 30px;
+}
+
+.buttoncss {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #4c9aff;
+  color: #fff;
+  border-radius: 5px;
+  border: none;
+  height: 100px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.buttoncss:hover {
+  background-color: #3a85cc;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+}
+
+.buttoncss:active {
+  background-color: #2970a8;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+}

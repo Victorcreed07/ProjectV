@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import { ContextProvider } from './contexts/context';
+import { GlobalProvider } from './contexts/context2';
 
 
 
@@ -14,7 +15,9 @@ root.render(
   
   
    <ContextProvider>
+   <GlobalProvider>
     <App />
+    </GlobalProvider>
      </ContextProvider>
      
   

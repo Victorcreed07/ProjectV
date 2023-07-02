@@ -80,7 +80,25 @@ export const earningData = [
   },
 ];
 
+export const userdata = [
 
+{
+  No:'76598932',
+  Details:{
+    Name:'Varsha',
+    Rank:'Sailor'
+  }
+},
+{
+  No:'812399861124',
+  Details:{
+    Name:'Geoffrick',
+    Rank:'Civilian'
+  }
+}
+
+
+]
 
 
 export const links = [
@@ -95,49 +113,44 @@ export const links = [
   },
 
   {
-    title: 'Users',
+    title: 'Access',
     links: [
       {
         name: 'Sailors',
-        icon: <MdPeople />,
-      },
-      {
-        name: 'Officers',
         icon: <GiPoliceOfficerHead />,
       },
       {
-        name: 'Maintenance',
+        name: 'Civilians',
+        icon: <MdPeople />,
+      },
+      {
+        name: 'Analytics',
         icon: <FaTools />,
-      },
-       {
-        name: 'AgniVeer',
-        icon: <BsFire />,
       }
-      
     ],
-  },
-  {
-    title: 'Others',
-    links: [
-      {
-        name: 'Dockyard',
-        icon: <GiCargoShip />,
-      },
-      {
-        name: 'Sailing',
-        icon: <GiShipBow />,
-      },
-      {
-        name: 'Emergency',
-        icon: <GiShipWreck />,
-      },
-      {
-        name:'Help and Info',
-        icon: <BiHelpCircle />
-      }
+  }
+  // {
+  //   title: 'Others',
+  //   links: [
+  //     {
+  //       name: 'Dockyard',
+  //       icon: <GiCargoShip />,
+  //     },
+  //     {
+  //       name: 'Sailing',
+  //       icon: <GiShipBow />,
+  //     },
+  //     {
+  //       name: 'Emergency',
+  //       icon: <GiShipWreck />,
+  //     },
+  //     {
+  //       name:'Help and Info',
+  //       icon: <BiHelpCircle />
+  //     }
       
-    ],
-  },
+  //   ],
+  // },
   
 ];
 

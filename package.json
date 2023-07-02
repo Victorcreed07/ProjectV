@@ -47,6 +47,7 @@
     "react-search-box": "^3.0.0",
     "react-trello": "^2.2.10",
     "react-uuid": "^2.0.0",
+    "react-webcam": "^7.1.1",
     "recharts": "^2.6.2",
     "web-vitals": "^2.1.4"
   },
